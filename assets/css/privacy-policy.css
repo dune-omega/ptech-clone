@@ -38,9 +38,11 @@
   background: -ms-linear-gradient(0deg, #03a9f4, #ff9800);
   background: -o-linear-gradient(0deg, #03a9f4, #ff9800);
   -webkit-box-decoration-break: clone;
+  box-decoration-break: clone;
   display: inline;
   color: #03a9f4;
   -webkit-background-clip: text;
+  background-clip: text;
   -webkit-text-fill-color: transparent;
   font-size: 46px;
   line-height: 1.2em;
