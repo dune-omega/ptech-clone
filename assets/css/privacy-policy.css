@@ -1,0 +1,62 @@
+.elegant-image-wrapper {
+  margin-top: 10rem;
+  display: flex;
+  justify-content: center;
+}
+
+.fusion-fullwidth {
+  background-color: rgba(255, 255, 255, 0);
+  background-position: center center;
+  background-repeat: no-repeat;
+  border-width: 0px 0px 0px 0px;
+  border-color: #eae9e9;
+  border-style: solid;
+}
+
+.img__elegant {
+  width: 400px;
+}
+
+#main {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.elegant-gradient-heading {
+  font-family: Montserrat;
+  font-weight: 700;
+  background: -webkit-gradient(
+    linear,
+    left top,
+    right top,
+    from(#03a9f4),
+    to(#ff9800)
+  );
+  background: -webkit-linear-gradient(0deg, #03a9f4, #ff9800);
+  background: -moz-linear-gradient(0deg, #03a9f4, #ff9800);
+  background: -ms-linear-gradient(0deg, #03a9f4, #ff9800);
+  background: -o-linear-gradient(0deg, #03a9f4, #ff9800);
+  -webkit-box-decoration-break: clone;
+  display: inline;
+  color: #03a9f4;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-size: 46px;
+  line-height: 1.2em;
+  text-align: center;
+  max-width: 100%;
+}
+
+.fusion-text .fusion-text-1 {
+  color: #474747;
+  font-weight: 400;
+}
+
+.header__title {
+  margin-block-start: 3rem;
+}
+
+.numbered__data {
+  padding-inline-start: 40px;
+}
