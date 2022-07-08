@@ -5,7 +5,8 @@
   "source": "index.html",
   "scripts": {
     "start": "parcel",
-    "build": "parcel build"
+    "build": "parcel build",
+    "server": "http-server"
   },
   "keywords": [],
   "author": "",
@@ -17,6 +18,7 @@
     "parcel": "^2.6.2"
   },
   "dependencies": {
+    "http-server": "^14.1.1",
     "sass": "^1.53.0"
   }
 }

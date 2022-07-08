@@ -1,0 +1,301 @@
+* {
+  font-family: "Montserrat";
+}
+
+#home {
+  position: relative;
+  top: -1px;
+}
+
+.fusion-row.main {
+  max-width: 100%;
+}
+
+.fusion-row {
+  max-width: 100%;
+}
+
+.elegant-image-wrapper {
+  width: 500px;
+}
+
+.post-content {
+  margin-block-start: 10rem;
+  margin-block-end: 5rem;
+}
+
+.header__title {
+  font-size: 2rem;
+  color: #333333;
+}
+
+.header__description {
+  color: #333333;
+}
+
+.icon-wrapper .circle-no {
+  height: 27.2px;
+  width: 27.2px;
+
+  margin-right: 11.2px;
+}
+
+.fusion-li-item-content {
+  margin-left: 38.4px;
+  color: #858a9f;
+}
+
+.fusion-checklist {
+  font-size: 16px;
+  line-height: 27.2px;
+}
+
+.elegant-skew-heading.elegant-skew-direction-left {
+  background: -webkit-gradient(
+    linear,
+    left top,
+    right top,
+    from(#ae02f2),
+    to(#0087ef)
+  );
+  background: -webkit-linear-gradient(0deg, #ae02f2, #0087ef);
+  background: -moz-linear-gradient(0deg, #ae02f2, #0087ef);
+  background: -ms-linear-gradient(0deg, #ae02f2, #0087ef);
+  background: -o-linear-gradient(0deg, #ae02f2, #0087ef);
+}
+
+.elegant-skew-heading-wrapper {
+  --background_color_1: #ae02f2;
+  --background_color_2: #0087ef;
+}
+
+.elegant-skew-heading-text {
+  color: #ffffff;
+  font-size: 28px;
+  font-weight: 400;
+}
+
+#elegant-gradient-heading {
+  font-weight: 700;
+  background: -webkit-gradient(
+    linear,
+    left top,
+    right top,
+    from(#03a9f4),
+    to(#ff9800)
+  );
+  background: -webkit-linear-gradient(0deg, #03a9f4, #ff9800);
+  background: -moz-linear-gradient(0deg, #03a9f4, #ff9800);
+  background: -ms-linear-gradient(0deg, #03a9f4, #ff9800);
+  background: -o-linear-gradient(0deg, #03a9f4, #ff9800);
+  -webkit-box-decoration-break: clone;
+  box-decoration-break: clone;
+  color: #03a9f4;
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-size: 46px;
+  line-height: 1.2em;
+  display: grid;
+  place-content: center;
+  margin-block-end: 8rem;
+}
+
+.fusion-li-icon {
+  margin-top: 5px;
+  color: #4728c1;
+}
+
+.fusion-layout-column {
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+.fusion-body .fusion-builder-column-1 {
+  width: 50% !important;
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+
+.fusion-column-wrapper {
+  background-position: left top;
+  background-repeat: no-repeat;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  padding: 0px 0px 0px 0px;
+  margin-block-end: 4rem;
+}
+
+.fusion-builder-column-1 > .fusion-column-wrapper {
+  padding-top: 0px !important;
+  padding-right: 0px !important;
+  margin-right: 3.84%;
+  padding-bottom: 0px !important;
+  padding-left: 0px !important;
+  margin-left: 3.84%;
+}
+
+.fusion-body .fusion-builder-column-2 {
+  width: 50% !important;
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+
+.fusion-builder-column-2 > .fusion-column-wrapper {
+  padding-top: 0px !important;
+  padding-right: 0px !important;
+  margin-right: 3.84%;
+  padding-bottom: 0px !important;
+  padding-left: 0px !important;
+  margin-left: 3.84%;
+}
+
+.fusion-body .fusion-flex-container.fusion-builder-row-2 {
+  padding-top: 0px;
+  margin-top: 0px;
+  padding-right: 30px;
+  padding-bottom: 0px;
+  margin-bottom: 0px;
+  padding-left: 30px;
+}
+
+.fusion-body .fusion-builder-column-3 {
+  width: 100% !important;
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+
+.fusion-builder-column-3 > .fusion-column-wrapper {
+  padding-top: 0px !important;
+  padding-right: 0px !important;
+  margin-right: 1.92%;
+  padding-bottom: 0px !important;
+  padding-left: 0px !important;
+  margin-left: 1.92%;
+}
+
+.fusion-body .fusion-builder-column-4 {
+  width: 50% !important;
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+
+.fusion-body .fusion-flex-container.fusion-builder-row-4 {
+  padding-top: 0px;
+  margin-top: 0px;
+  padding-right: 30px;
+  padding-bottom: 0px;
+  margin-bottom: 0px;
+  padding-left: 30px;
+}
+
+.fusion-builder-column-4 > .fusion-column-wrapper {
+  padding-top: 0px !important;
+  padding-right: 0px !important;
+  margin-right: 3.84%;
+  padding-bottom: 0px !important;
+  padding-left: 0px !important;
+  margin-left: 3.84%;
+}
+
+.fusion-body .fusion-builder-column-5 {
+  width: 50% !important;
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+
+.fusion-builder-column-5 > .fusion-column-wrapper {
+  padding-top: 0px !important;
+  padding-right: 0px !important;
+  margin-right: 3.84%;
+  padding-bottom: 0px !important;
+  padding-left: 0px !important;
+  margin-left: 3.84%;
+}
+
+.fusion-body .fusion-builder-column-6 {
+  width: 100% !important;
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+
+.fusion-builder-column-6 > .fusion-column-wrapper {
+  padding-top: 0px !important;
+  padding-right: 0px !important;
+  margin-right: 1.92%;
+  padding-bottom: 0px !important;
+  padding-left: 0px !important;
+  margin-left: 1.92%;
+}
+
+.fusion-body .fusion-flex-container.fusion-builder-row-5 {
+  padding-top: 0px;
+  margin-top: 0px;
+  padding-right: 30px;
+  padding-bottom: 0px;
+  margin-bottom: 0px;
+  padding-left: 30px;
+}
+
+.fusion-body .fusion-builder-column-7 {
+  width: 50% !important;
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+
+.fusion-builder-column-7 > .fusion-column-wrapper {
+  padding-top: 0px !important;
+  padding-right: 0px !important;
+  margin-right: 3.84%;
+  padding-bottom: 0px !important;
+  padding-left: 0px !important;
+  margin-left: 3.84%;
+}
+
+.fusion-body .fusion-builder-column-8 {
+  width: 50% !important;
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+
+.fusion-builder-column-8 > .fusion-column-wrapper {
+  padding-top: 0px !important;
+  padding-right: 0px !important;
+  margin-right: 3.84%;
+  padding-bottom: 0px !important;
+  padding-left: 0px !important;
+  margin-left: 3.84%;
+}
+
+.fusion-body .fusion-flex-container.fusion-builder-row-6 {
+  padding-top: 0px;
+  margin-top: 0px;
+  padding-right: 30px;
+  padding-bottom: 0px;
+  margin-bottom: 0px;
+  padding-left: 30px;
+}
+
+.elegant-partner-logos-container.elegant-partner-logo-container-1
+  .elegant-partner-logo {
+  max-width: 200px;
+  max-height: 115px;
+}
+
+.elegant-image-0 img {
+  border-radius: 14px !important;
+}
+
+.elegant-image-1 img {
+  border-radius: 14px !important;
+}
+
+.fusion-separator.fusion-full-width-sep {
+  align-self: center;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  width: 100%;
+}
