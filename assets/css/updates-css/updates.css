@@ -4,7 +4,7 @@
   font-size: 5rem;
 }
 
-.elegant-gradient-heading {
+.elegant__header {
   font-family: Montserrat;
   font-weight: 700;
   background: -webkit-gradient(
@@ -20,15 +20,27 @@
   background: -o-linear-gradient(0deg, #03a9f4, #ff9800);
   -webkit-box-decoration-break: clone;
   box-decoration-break: clone;
-  display: inline;
+  display: grid;
+  place-content: center;
   color: #03a9f4;
   -webkit-background-clip: text;
   background-clip: text;
   -webkit-text-fill-color: transparent;
-  font-size: 46px;
   line-height: 1.2em;
 }
 
+.fusion-separator {
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 30px;
+  width: 100%;
+  max-width: 100px;
+}
+
+.fusion-separator-border.sep-single.sep-solid {
+  border-color: #25afb4;
+  border-top-width: 10px;
+}
 .fusion-blog-shortcode-1 .fusion-blog-layout-grid .fusion-post-grid {
   padding: 20px;
 }
