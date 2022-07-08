@@ -3,19 +3,11 @@
   "version": "1.0.0",
   "description": "",
   "source": "index.html",
-  "scripts": {
-    "start": "parcel",
-    "build": "parcel build",
-    "server": "http-server"
-  },
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "devDependencies": {
-    "@parcel/packager-raw-url": "^2.6.2",
-    "@parcel/transformer-jsonld": "^2.6.2",
-    "@parcel/transformer-sass": "^2.6.2",
-    "parcel": "^2.6.2"
+  "scripts": {
+    "start" : "npx http-server"
   },
   "dependencies": {
     "http-server": "^14.1.1",
