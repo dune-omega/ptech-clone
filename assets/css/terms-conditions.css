@@ -1,3 +1,6 @@
+* {
+  font-family: Montserrat;
+}
 #display__picture__wrapper {
   display: grid;
   justify-items: center;
