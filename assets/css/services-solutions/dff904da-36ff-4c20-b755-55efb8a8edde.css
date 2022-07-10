@@ -3461,7 +3461,7 @@
 
 .elegant-fancy-banner .elegant-fancy-banner-description-wrapper .elegant-fancy-banner-title {
     margin: 0;
-    padding-bottom: 10px
+    padding-bottom: 10px;
 }
 
 .elegant-fancy-banner .elegant-fancy-banner-description-wrapper .elegant-fancy-banner-description {
@@ -5192,14 +5192,16 @@
 }
 
 .elegant-image img {
-    max-width: 100%
+    max-width: 100%;
 }
 
 .elegant-image .elegant-image-wrapper {
     -ms-transform: translateY(0);
     transform: translateY(0);
     transition: transform .4s ease-out;
-    overflow: hidden
+    overflow: hidden;
+    border-radius: 0.7rem;
+    margin-inline:1.55rem;
 }
 
 .elegant-image .elegant-image-blur-shadow {
@@ -5220,10 +5222,6 @@
     transform-origin: bottom
 }
 
-.elegant-image:hover .elegant-image-wrapper {
-    -ms-transform: translateY(-8px);
-    transform: translateY(-8px)
-}
 
 .elegant-image:hover .elegant-image-blur-shadow img {
     opacity: .75
