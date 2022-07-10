@@ -1,13 +1,8 @@
-* {
-  font-family: Montserrat;
+.elegant-gradient-heading-wrapper.elegant-align-center {
+  margin-block-start: 15rem;
 }
 
-#home {
-  position: relative;
-  top: -1px;
-}
-
-.elegant__header {
+.elegant-gradient-heading {
   font-family: Montserrat;
   font-weight: 700;
   background: -webkit-gradient(
@@ -23,125 +18,57 @@
   background: -o-linear-gradient(0deg, #03a9f4, #ff9800);
   -webkit-box-decoration-break: clone;
   box-decoration-break: clone;
-  display: flex;
-  justify-content: center;
+  display: inline;
   color: #03a9f4;
   -webkit-background-clip: text;
   background-clip: text;
   -webkit-text-fill-color: transparent;
+  font-size: 46px;
   line-height: 1.2em;
 }
 
-.fusion-body .fusion-builder-column-11 {
-  width: 100% !important;
-  margin-top: 0px;
-  margin-bottom: 0px;
+#contact__container {
+  display: flex;
+  justify-content: center;
+  margin-block-start: 5rem;
 }
 
-.fusion-builder-column-11 > .fusion-column-wrapper {
-  padding-top: 0px !important;
-  padding-right: 0px !important;
-  margin-right: 1.92%;
-  padding-bottom: 0px !important;
-  padding-left: 0px !important;
-  margin-left: 1.92%;
+.elegant-whatsapp-chat-button.whatsapp-chat-button-1.elegant-align-center {
+  font-size: 18px;
+  margin-block-start: 2rem;
 }
 
-.fusion-body .fusion-flex-container.fusion-builder-row-11 {
-  padding-top: 0px;
-  margin-top: 0px;
-  padding-right: 30px;
-  padding-bottom: 0px;
-  margin-bottom: 0px;
-  padding-left: 30px;
-}
-
-.fusion-body .fusion-flex-container.fusion-builder-row-10 {
-  padding-top: 0px;
-  margin-top: 0px;
-  padding-right: 30px;
-  padding-bottom: 0px;
-  margin-bottom: 0px;
-  padding-left: 30px;
-}
-
-.fc-form.fc-form-2 {
-  width: 480px;
-  color: #666666;
-  font-size: 115%;
-}
-
-.fusion-layout-column.fusion_builder_column {
-  width: 100%;
-  margin-top: 0px;
-  margin-bottom: 0px;
-}
-
-.fusion-li-item {
-  background-color: rgba(255, 255, 255, 0);
-  min-width: 100%;
-  margin-bottom: 10px;
+#convo__title {
+  line-height: 1.4;
+  color: #333333;
+  letter-spacing: 0px;
+  line-height: 40px;
+  font-family: Montserrat;
+  font-size: 2rem;
+  font-weight: 800;
 }
 
 .fusion-li-item-content {
-  color: #858a9f;
-}
-
-.span__title {
-  color: #333333;
-}
-
-.a__title {
   color: #333333;
   font-size: 20px;
+  font-weight: 400;
+  margin-block-end: 1rem;
+  margin-inline-start: 43.2px;
+}
+
+.icon-wrapper.circle-no {
+  height: 30.6px;
+  width: 30.6px;
+  margin: 1px 12.6px 0 0;
 }
 
 .fusion-li-icon {
   color: #2376de;
 }
 
-.fusion-li-item {
-  height: 30.6px;
-  width: 30.6px;
-  margin-right: 12.6px;
-}
-
-.fusion-layout-column.fusion_builder_column_inner.fusion-builder-nested-column-1.fusion_builder_column_inner_1_2.fusion-one-half.fusion-column-last {
-  width: 50%;
-  width: calc(50% - ((4%) * 0.5));
-  margin-top: 0px;
-  margin-bottom: 0px;
-}
-
-.elegant-whatsapp-chat-button.whatsapp-chat-button-1.elegant-align-center {
-  font-size: 18px;
-  margin-block-start: 5rem;
-}
-
 .elegant-whatsapp-chat-button-link {
   color: #ffffff;
   background: #0dc152;
-}
-
-.fusion-separator.fusion-full-width-sep {
-  margin-left: auto;
-  margin-right: auto;
-  margin-top: 7px;
-  width: 100%;
-}
-
-.absolute-false.customText-cover.field-cover {
-  color: #666666 !important;
-}
-
-.fusion-column-wrapper.fusion-flex-column-wrapper-legacy {
-  background-position: left top;
-  background-repeat: no-repeat;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
-  padding: 0px 0px 138.85px 0px;
 }
 
 .elegant-skew-heading-wrapper {
@@ -161,28 +88,26 @@
   background: -moz-linear-gradient(0deg, #1871dd, #0087ef);
   background: -ms-linear-gradient(0deg, #1871dd, #0087ef);
   background: -o-linear-gradient(0deg, #1871dd, #0087ef);
-  color: rgb(0, 0, 0);
 }
 
 .elegant-skew-heading-text {
   font-family: Montserrat;
   font-weight: 400;
+  color: #ffffff;
   font-size: 28px;
 }
 
-.elegant-skew-heading-text > span {
-  color: white;
+#image__container {
+  padding-right: 30px;
+  padding-left: 30px;
+}
+
+#schedule__container {
+  background-color: #000000;
+  padding: 0px 0px 138.85px 0px;
 }
 
 .elegant-business-hours {
-  color: rgb(255, 255, 255);
-  background-color: rgb(0, 0, 0);
+  color: #f9f9f9;
   font-size: 23px;
-}
-
-.fusion-text.fusion-text-2 {
-  text-align: center;
-}
-.fusion-text.fusion-text-2 > strong > span {
-  color: #333333;
 }
