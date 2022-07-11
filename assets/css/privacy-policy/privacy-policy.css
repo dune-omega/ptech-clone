@@ -60,3 +60,7 @@
 .numbered__data {
   padding-inline-start: 40px;
 }
+
+.elegant-gradient-heading-wrapper.elegant-align-center{
+  text-align: center;
+}

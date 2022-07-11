@@ -1,5 +1,5 @@
 * {
-  font-family: "Montserrat";
+  font-family: 'Montserrat';
 }
 
 #home {
@@ -75,7 +75,8 @@
   font-weight: 400;
 }
 
-#elegant-gradient-heading {
+.elegant-gradient-heading {
+  font-family: "Montserrat";
   font-weight: 700;
   background: -webkit-gradient(
     linear,
@@ -90,15 +91,13 @@
   background: -o-linear-gradient(0deg, #03a9f4, #ff9800);
   -webkit-box-decoration-break: clone;
   box-decoration-break: clone;
+  display: inline;
   color: #03a9f4;
   -webkit-background-clip: text;
   background-clip: text;
   -webkit-text-fill-color: transparent;
   font-size: 46px;
   line-height: 1.2em;
-  display: grid;
-  place-content: center;
-  margin-block-end: 8rem;
 }
 
 .fusion-li-icon {
@@ -298,4 +297,8 @@
   margin-top: 50px;
   margin-bottom: 50px;
   width: 100%;
+}
+
+.elegant-gradient-heading-wrapper.elegant-align-center{
+  margin-block-end: 5rem;
 }
