@@ -17,6 +17,7 @@
 
 .elegant-image-wrapper {
   width: 500px;
+  pointer-events: none;
 }
 
 .post-content {
