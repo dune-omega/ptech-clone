@@ -221,6 +221,11 @@
 
 .elegant-image-wrapper img {
   width: 400px;
+
+}
+.elegant-image-wrapper img:hover {
+  cursor: default;
+
 }
 
 .elegant-fancy-banner .fancy-banner-content-align-center {
